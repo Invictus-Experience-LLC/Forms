@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Thank You – Invictus Experience</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <style>
+    :root {
+      --invictus-light-bg: #f5f6f7;
+      --invictus-card-bg: #ffffff;
+      --invictus-border: #d3d5d8;
+      --invictus-accent: #a9abaf;
+      --invictus-accent-dark: #7f8286;
+      --invictus-text-main: #333333;
+      --invictus-text-muted: #7a7a7a;
+
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background: var(--invictus-light-bg);
+      color: var(--invictus-text-main);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    .wrapper {
+      width: 100%;
+      max-width: 720px;
+      padding: 1rem;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 0.75rem;
+    }
+
+    .logo {
+      max-width: 260px;
+      width: 70%;
+      height: auto;
+      display: block;
+      margin: 0 auto 0.5rem;
+    }
+
+    .brand-subtitle {
+      font-size: 0.9rem;
+      color: var(--invictus-text-muted);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .card {
+      background: var(--invictus-card-bg);
+      border-radius: 12px;
+      padding: 1.75rem 1.5rem;
+      border: 1px solid var(--invictus-border);
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0 0 0.5rem;
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: var(--invictus-accent-dark);
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    p {
+      margin: 0.25rem 0;
+      color: var(--invictus-text-muted);
+      font-size: 0.98rem;
+    }
+
+    .highlight {
+      margin-top: 0.75rem;
+      font-size: 0.95rem;
+      color: var(--invictus-text-main);
+    }
+
+    .btn-row {
+      margin-top: 1.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.75rem;
+    }
+
+    a.button {
+      display: inline-block;
+      padding: 0.75rem 1.4rem;
+      border-radius: 999px;
+      border: none;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      background: var(--invictus-accent-dark);
+      color: #ffffff;
+      text-decoration: none;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+    }
+
+    a.button:hover {
+      background: #6b6e72;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="header">
+      <!-- Same logo file as index.html -->
+      <img src="invictus-logo.png" alt="Invictus Experience logo" class="logo" />
+      <div class="brand-subtitle">Rental Application</div>
+    </div>
+
+    <div class="card">
+      <h1>Thank You</h1>
+      <p>Your application has been submitted successfully.</p>
+      <p class="highlight">
+        Our team at Invictus Experience will review your information and contact you with next steps.
+      </p>
+
+      <div class="btn-row">
+        <!-- Replace with your main website or listings page -->
+        <a href="https://invictus-experience.com" class="button">Back to Website</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
